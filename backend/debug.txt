@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/lubkert/.nvm/versions/node/v14.19.1/bin/node',
+1 verbose cli   '/Users/lubkert/.nvm/versions/node/v14.19.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'develop'
+1 verbose cli ]
+2 info using npm@6.14.16
+3 info using node@v14.19.1
+4 verbose run-script [ 'predevelop', 'develop', 'postdevelop' ]
+5 info lifecycle backend@0.1.0~predevelop: backend@0.1.0
+6 info lifecycle backend@0.1.0~develop: backend@0.1.0
+7 verbose lifecycle backend@0.1.0~develop: unsafe-perm in lifecycle true
+8 verbose lifecycle backend@0.1.0~develop: PATH: /Users/lubkert/.nvm/versions/node/v14.19.1/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/lubkert/MITxPro/Week-Folders/Week28/setting-up-graphql-with-apollo_starter/backend/node_modules/.bin:/Users/lubkert/.nvm/versions/node/v14.19.1/bin:/Users/lubkert/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/lubkert/.nvm/versions/node/v16.13.0/bin
+9 verbose lifecycle backend@0.1.0~develop: CWD: /Users/lubkert/MITxPro/Week-Folders/Week28/setting-up-graphql-with-apollo_starter/backend
+10 silly lifecycle backend@0.1.0~develop: Args: [ '-c', 'strapi develop' ]
+11 silly lifecycle backend@0.1.0~develop: Returned: code: 1  signal: null
+12 info lifecycle backend@0.1.0~develop: Failed to exec develop script
+13 verbose stack Error: backend@0.1.0 develop: `strapi develop`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/Users/lubkert/.nvm/versions/node/v14.19.1/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:400:28)
+13 verbose stack     at ChildProcess.<anonymous> (/Users/lubkert/.nvm/versions/node/v14.19.1/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:400:28)
+13 verbose stack     at maybeClose (internal/child_process.js:1058:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)
+14 verbose pkgid backend@0.1.0
+15 verbose cwd /Users/lubkert/MITxPro/Week-Folders/Week28/setting-up-graphql-with-apollo_starter/backend
+16 verbose Darwin 20.6.0
+17 verbose argv "/Users/lubkert/.nvm/versions/node/v14.19.1/bin/node" "/Users/lubkert/.nvm/versions/node/v14.19.1/bin/npm" "run" "develop"
+18 verbose node v14.19.1
+19 verbose npm  v6.14.16
+20 error code ELIFECYCLE
+21 error errno 1
+22 error backend@0.1.0 develop: `strapi develop`
+22 error Exit status 1
+23 error Failed at the backend@0.1.0 develop script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
